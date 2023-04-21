@@ -1,0 +1,59 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="index.js" async></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="column">
+      <div class="padded">
+        <div class="itemContainer padding">
+          <button id="coffee" data-price="480" data-count="0">
+            <span class="alignLeft">Coffee</span>
+            <span class="alignRight">480 yen</span>
+          </button>
+          <div id="coffee-count" class="dot countContainer">0</div>
+        </div>
+        <div class="itemContainer padding">
+          <button id="tea" data-price="280" data-count="0">
+            <span class="alignLeft">Tea</span>
+            <span class="alignRight">280 yen</span>
+          </button>
+          <div id="tea-count" class="dot countContainer">0</div>
+        </div>
+        <div class="itemContainer padding">
+          <button id="milk" data-price="180" data-count="0">
+            <span class="alignLeft">Milk</span>
+            <span class="alignRight">180 yen</span>
+          </button>
+          <div id="milk-count" class="dot countContainer">0</div>
+        </div>
+        <div class="itemContainer padding">
+          <button id="coke" data-price="190" data-count="0">
+            <span class="alignLeft">Coke</span>
+            <span class="alignRight">190 yen</span>
+          </button>
+          <div id="coke-count" class="dot countContainer">0</div>
+        </div>
+        <div class="itemContainer padding">
+          <button id="beer" data-price="580" data-count="0">
+            <span class="alignLeft">Beer</span>
+            <span class="alignRight">580 yen</span>
+          </button>
+          <div id="beer-count" class="dot countContainer">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="padded">
+        <div class="billContainer">
+          <p>Your bill</p>
+          <hr>
+          <p>Items ordered : <span id="count">0</span></p>
+          <p>Total Price : <span id="price">0</span> yen</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
